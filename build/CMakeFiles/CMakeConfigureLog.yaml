@@ -1,0 +1,1748 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.0.5+e22287bf1 for .NET Framework
+      Build started 1/21/2026 3:04:21 PM.
+      
+      Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.40
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/4.1.1-msvc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/gnupg/bin/lld-link.com"
+      - "C:/Program Files (x86)/gnupg/bin/lld-link.exe"
+      - "C:/Program Files (x86)/gnupg/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/Justin/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/ytdlp/lld-link.com"
+      - "C:/ytdlp/lld-link.exe"
+      - "C:/ytdlp/lld-link"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Windows/SysWOW64/mt.com"
+      - "C:/Windows/SysWOW64/mt.exe"
+      - "C:/Windows/SysWOW64/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/SysWOW64/wbem/mt.com"
+      - "C:/Windows/SysWOW64/wbem/mt.exe"
+      - "C:/Windows/SysWOW64/wbem/mt"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/gnupg/bin/mt.com"
+      - "C:/Program Files (x86)/gnupg/bin/mt.exe"
+      - "C:/Program Files (x86)/gnupg/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/Justin/AppData/Local/nvm/mt.com"
+      - "C:/Users/Justin/AppData/Local/nvm/mt.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/mt"
+      - "C:/nvm4w/nodejs/mt.com"
+      - "C:/nvm4w/nodejs/mt.exe"
+      - "C:/nvm4w/nodejs/mt"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/ytdlp/mt.com"
+      - "C:/ytdlp/mt.exe"
+      - "C:/ytdlp/mt"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.0.5+e22287bf1 for .NET Framework
+      Build started 1/21/2026 3:04:21 PM.
+      
+      Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.39
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/gnupg/bin/lld-link.com"
+      - "C:/Program Files (x86)/gnupg/bin/lld-link.exe"
+      - "C:/Program Files (x86)/gnupg/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/Justin/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/ytdlp/lld-link.com"
+      - "C:/ytdlp/lld-link.exe"
+      - "C:/ytdlp/lld-link"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:581 (enable_language)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:554 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/tictactoe/bin/"
+      - "C:/Program Files (x86)/tictactoe/sbin/"
+      - "C:/Program Files (x86)/tictactoe/"
+    searched_directories:
+      - "C:/Windows/SysWOW64/rc.com"
+      - "C:/Windows/SysWOW64/rc.exe"
+      - "C:/Windows/SysWOW64/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/SysWOW64/wbem/rc.com"
+      - "C:/Windows/SysWOW64/wbem/rc.exe"
+      - "C:/Windows/SysWOW64/wbem/rc"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/gnupg/bin/rc.com"
+      - "C:/Program Files (x86)/gnupg/bin/rc.exe"
+      - "C:/Program Files (x86)/gnupg/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/Justin/AppData/Local/nvm/rc.com"
+      - "C:/Users/Justin/AppData/Local/nvm/rc.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/rc"
+      - "C:/nvm4w/nodejs/rc.com"
+      - "C:/nvm4w/nodejs/rc.exe"
+      - "C:/nvm4w/nodejs/rc"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/ytdlp/rc.com"
+      - "C:/ytdlp/rc.exe"
+      - "C:/ytdlp/rc"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
+      - "C:/Program Files (x86)/tictactoe/bin/rc.com"
+      - "C:/Program Files (x86)/tictactoe/bin/rc.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/rc"
+      - "C:/Program Files (x86)/tictactoe/sbin/rc.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/rc.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/rc"
+      - "C:/Program Files (x86)/tictactoe/rc.com"
+      - "C:/Program Files (x86)/tictactoe/rc.exe"
+      - "C:/Program Files (x86)/tictactoe/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tictactoe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/tictactoe"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-qk2auf"
+      binary: "C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-qk2auf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-qk2auf'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_19c8d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.5+e22287bf1 for .NET Framework
+        Build started 1/21/2026 3:04:22 PM.
+        
+        Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk2auf\\cmTC_19c8d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_19c8d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk2auf\\Debug\\".
+          Creating directory "cmTC_19c8d.dir\\Debug\\cmTC_19c8d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_19c8d.dir\\Debug\\cmTC_19c8d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_19c8d.dir\\Debug\\cmTC_19c8d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_19c8d.dir\\Debug\\\\" /Fd"cmTC_19c8d.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_19c8d.dir\\Debug\\\\" /Fd"cmTC_19c8d.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk2auf\\Debug\\cmTC_19c8d.exe" /INCREMENTAL /ILK:"cmTC_19c8d.dir\\Debug\\cmTC_19c8d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-qk2auf/Debug/cmTC_19c8d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-qk2auf/Debug/cmTC_19c8d.lib" /MACHINE:X64  /machine:x64 cmTC_19c8d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_19c8d.vcxproj -> C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk2auf\\Debug\\cmTC_19c8d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_19c8d.dir\\Debug\\cmTC_19c8d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_19c8d.dir\\Debug\\cmTC_19c8d.tlog\\cmTC_19c8d.lastbuildstate".
+        Done Building Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk2auf\\cmTC_19c8d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35721.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-5vtzpm"
+      binary: "C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-5vtzpm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-5vtzpm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6762.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.5+e22287bf1 for .NET Framework
+        Build started 1/21/2026 3:04:22 PM.
+        
+        Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vtzpm\\cmTC_d6762.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d6762.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vtzpm\\Debug\\".
+          Creating directory "cmTC_d6762.dir\\Debug\\cmTC_d6762.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d6762.dir\\Debug\\cmTC_d6762.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d6762.dir\\Debug\\cmTC_d6762.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_d6762.dir\\Debug\\\\" /Fd"cmTC_d6762.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_d6762.dir\\Debug\\\\" /Fd"cmTC_d6762.dir\\Debug\\vc145.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vtzpm\\Debug\\cmTC_d6762.exe" /INCREMENTAL /ILK:"cmTC_d6762.dir\\Debug\\cmTC_d6762.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-5vtzpm/Debug/cmTC_d6762.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Justin/Visual Studio Code Projects/CMPM 123/cmpm123/build/CMakeFiles/CMakeScratch/TryCompile-5vtzpm/Debug/cmTC_d6762.lib" /MACHINE:X64  /machine:x64 cmTC_d6762.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d6762.vcxproj -> C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vtzpm\\Debug\\cmTC_d6762.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d6762.dir\\Debug\\cmTC_d6762.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d6762.dir\\Debug\\cmTC_d6762.tlog\\cmTC_d6762.lastbuildstate".
+        Done Building Project "C:\\Users\\Justin\\Visual Studio Code Projects\\CMPM 123\\cmpm123\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vtzpm\\cmTC_d6762.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35721.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CTest.cmake:171 (find_program)"
+      - "CMakeLists.txt:33 (include)"
+    mode: "program"
+    variable: "GITCOMMAND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/tictactoe/bin/"
+      - "C:/Program Files (x86)/tictactoe/sbin/"
+      - "C:/Program Files (x86)/tictactoe/"
+    searched_directories:
+      - "C:/Windows/SysWOW64/git.com"
+      - "C:/Windows/SysWOW64/git.exe"
+      - "C:/Windows/SysWOW64/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/SysWOW64/wbem/git.com"
+      - "C:/Windows/SysWOW64/wbem/git.exe"
+      - "C:/Windows/SysWOW64/wbem/git"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files (x86)/gnupg/bin/git.com"
+      - "C:/Program Files (x86)/gnupg/bin/git.exe"
+      - "C:/Program Files (x86)/gnupg/bin/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tictactoe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/tictactoe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CTest.cmake:188 (find_program)"
+      - "CMakeLists.txt:33 (include)"
+    mode: "program"
+    variable: "MEMORYCHECK_COMMAND"
+    description: "Path to the memory checking command, used for memory error detection."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "purify"
+      - "valgrind"
+      - "boundscheck"
+      - "drmemory"
+      - "cuda-memcheck"
+      - "compute-sanitizer"
+    candidate_directories:
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/tictactoe/bin/"
+      - "C:/Program Files (x86)/tictactoe/sbin/"
+      - "C:/Program Files (x86)/tictactoe/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Windows/SysWOW64/purify.com"
+      - "C:/Windows/SysWOW64/purify.exe"
+      - "C:/Windows/SysWOW64/purify"
+      - "C:/Windows/purify.com"
+      - "C:/Windows/purify.exe"
+      - "C:/Windows/purify"
+      - "C:/Windows/SysWOW64/wbem/purify.com"
+      - "C:/Windows/SysWOW64/wbem/purify.exe"
+      - "C:/Windows/SysWOW64/wbem/purify"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/purify.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/purify.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/purify"
+      - "C:/Program Files/dotnet/purify.com"
+      - "C:/Program Files/dotnet/purify.exe"
+      - "C:/Program Files/dotnet/purify"
+      - "C:/Program Files (x86)/gnupg/bin/purify.com"
+      - "C:/Program Files (x86)/gnupg/bin/purify.exe"
+      - "C:/Program Files (x86)/gnupg/bin/purify"
+      - "C:/Program Files/Git/cmd/purify.com"
+      - "C:/Program Files/Git/cmd/purify.exe"
+      - "C:/Program Files/Git/cmd/purify"
+      - "C:/Users/Justin/AppData/Local/nvm/purify.com"
+      - "C:/Users/Justin/AppData/Local/nvm/purify.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/purify"
+      - "C:/nvm4w/nodejs/purify.com"
+      - "C:/nvm4w/nodejs/purify.exe"
+      - "C:/nvm4w/nodejs/purify"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/purify.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/purify.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/purify"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/purify.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/purify.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/purify"
+      - "C:/ytdlp/purify.com"
+      - "C:/ytdlp/purify.exe"
+      - "C:/ytdlp/purify"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/purify.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/purify.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/purify"
+      - "C:/Program Files/bin/purify.com"
+      - "C:/Program Files/bin/purify.exe"
+      - "C:/Program Files/bin/purify"
+      - "C:/Program Files/sbin/purify.com"
+      - "C:/Program Files/sbin/purify.exe"
+      - "C:/Program Files/sbin/purify"
+      - "C:/Program Files/purify.com"
+      - "C:/Program Files/purify.exe"
+      - "C:/Program Files/purify"
+      - "C:/Program Files (x86)/bin/purify.com"
+      - "C:/Program Files (x86)/bin/purify.exe"
+      - "C:/Program Files (x86)/bin/purify"
+      - "C:/Program Files (x86)/sbin/purify.com"
+      - "C:/Program Files (x86)/sbin/purify.exe"
+      - "C:/Program Files (x86)/sbin/purify"
+      - "C:/Program Files (x86)/purify.com"
+      - "C:/Program Files (x86)/purify.exe"
+      - "C:/Program Files (x86)/purify"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/purify.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/purify.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/purify"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/purify.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/purify.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/purify"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/purify.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/purify.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/purify"
+      - "C:/Program Files (x86)/tictactoe/bin/purify.com"
+      - "C:/Program Files (x86)/tictactoe/bin/purify.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/purify"
+      - "C:/Program Files (x86)/tictactoe/sbin/purify.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/purify.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/purify"
+      - "C:/Program Files (x86)/tictactoe/purify.com"
+      - "C:/Program Files (x86)/tictactoe/purify.exe"
+      - "C:/Program Files (x86)/tictactoe/purify"
+      - "/REGISTRY-NOTFOUND/purify.com"
+      - "/REGISTRY-NOTFOUND/purify.exe"
+      - "/REGISTRY-NOTFOUND/purify"
+      - "C:/Windows/SysWOW64/valgrind.com"
+      - "C:/Windows/SysWOW64/valgrind.exe"
+      - "C:/Windows/SysWOW64/valgrind"
+      - "C:/Windows/valgrind.com"
+      - "C:/Windows/valgrind.exe"
+      - "C:/Windows/valgrind"
+      - "C:/Windows/SysWOW64/wbem/valgrind.com"
+      - "C:/Windows/SysWOW64/wbem/valgrind.exe"
+      - "C:/Windows/SysWOW64/wbem/valgrind"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/valgrind.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/valgrind.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/valgrind"
+      - "C:/Program Files/dotnet/valgrind.com"
+      - "C:/Program Files/dotnet/valgrind.exe"
+      - "C:/Program Files/dotnet/valgrind"
+      - "C:/Program Files (x86)/gnupg/bin/valgrind.com"
+      - "C:/Program Files (x86)/gnupg/bin/valgrind.exe"
+      - "C:/Program Files (x86)/gnupg/bin/valgrind"
+      - "C:/Program Files/Git/cmd/valgrind.com"
+      - "C:/Program Files/Git/cmd/valgrind.exe"
+      - "C:/Program Files/Git/cmd/valgrind"
+      - "C:/Users/Justin/AppData/Local/nvm/valgrind.com"
+      - "C:/Users/Justin/AppData/Local/nvm/valgrind.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/valgrind"
+      - "C:/nvm4w/nodejs/valgrind.com"
+      - "C:/nvm4w/nodejs/valgrind.exe"
+      - "C:/nvm4w/nodejs/valgrind"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/valgrind.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/valgrind.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/valgrind"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/valgrind.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/valgrind.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/valgrind"
+      - "C:/ytdlp/valgrind.com"
+      - "C:/ytdlp/valgrind.exe"
+      - "C:/ytdlp/valgrind"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/valgrind.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/valgrind.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/valgrind"
+      - "C:/Program Files/bin/valgrind.com"
+      - "C:/Program Files/bin/valgrind.exe"
+      - "C:/Program Files/bin/valgrind"
+      - "C:/Program Files/sbin/valgrind.com"
+      - "C:/Program Files/sbin/valgrind.exe"
+      - "C:/Program Files/sbin/valgrind"
+      - "C:/Program Files/valgrind.com"
+      - "C:/Program Files/valgrind.exe"
+      - "C:/Program Files/valgrind"
+      - "C:/Program Files (x86)/bin/valgrind.com"
+      - "C:/Program Files (x86)/bin/valgrind.exe"
+      - "C:/Program Files (x86)/bin/valgrind"
+      - "C:/Program Files (x86)/sbin/valgrind.com"
+      - "C:/Program Files (x86)/sbin/valgrind.exe"
+      - "C:/Program Files (x86)/sbin/valgrind"
+      - "C:/Program Files (x86)/valgrind.com"
+      - "C:/Program Files (x86)/valgrind.exe"
+      - "C:/Program Files (x86)/valgrind"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/valgrind.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/valgrind.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/valgrind"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/valgrind.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/valgrind.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/valgrind"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/valgrind.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/valgrind.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/valgrind"
+      - "C:/Program Files (x86)/tictactoe/bin/valgrind.com"
+      - "C:/Program Files (x86)/tictactoe/bin/valgrind.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/valgrind"
+      - "C:/Program Files (x86)/tictactoe/sbin/valgrind.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/valgrind.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/valgrind"
+      - "C:/Program Files (x86)/tictactoe/valgrind.com"
+      - "C:/Program Files (x86)/tictactoe/valgrind.exe"
+      - "C:/Program Files (x86)/tictactoe/valgrind"
+      - "/REGISTRY-NOTFOUND/valgrind.com"
+      - "/REGISTRY-NOTFOUND/valgrind.exe"
+      - "/REGISTRY-NOTFOUND/valgrind"
+      - "C:/Windows/SysWOW64/boundscheck.com"
+      - "C:/Windows/SysWOW64/boundscheck.exe"
+      - "C:/Windows/SysWOW64/boundscheck"
+      - "C:/Windows/boundscheck.com"
+      - "C:/Windows/boundscheck.exe"
+      - "C:/Windows/boundscheck"
+      - "C:/Windows/SysWOW64/wbem/boundscheck.com"
+      - "C:/Windows/SysWOW64/wbem/boundscheck.exe"
+      - "C:/Windows/SysWOW64/wbem/boundscheck"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/boundscheck.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/boundscheck.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/boundscheck"
+      - "C:/Program Files/dotnet/boundscheck.com"
+      - "C:/Program Files/dotnet/boundscheck.exe"
+      - "C:/Program Files/dotnet/boundscheck"
+      - "C:/Program Files (x86)/gnupg/bin/boundscheck.com"
+      - "C:/Program Files (x86)/gnupg/bin/boundscheck.exe"
+      - "C:/Program Files (x86)/gnupg/bin/boundscheck"
+      - "C:/Program Files/Git/cmd/boundscheck.com"
+      - "C:/Program Files/Git/cmd/boundscheck.exe"
+      - "C:/Program Files/Git/cmd/boundscheck"
+      - "C:/Users/Justin/AppData/Local/nvm/boundscheck.com"
+      - "C:/Users/Justin/AppData/Local/nvm/boundscheck.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/boundscheck"
+      - "C:/nvm4w/nodejs/boundscheck.com"
+      - "C:/nvm4w/nodejs/boundscheck.exe"
+      - "C:/nvm4w/nodejs/boundscheck"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/boundscheck.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/boundscheck.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/boundscheck"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/boundscheck.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/boundscheck.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/boundscheck"
+      - "C:/ytdlp/boundscheck.com"
+      - "C:/ytdlp/boundscheck.exe"
+      - "C:/ytdlp/boundscheck"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/boundscheck.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/boundscheck.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/boundscheck"
+      - "C:/Program Files/bin/boundscheck.com"
+      - "C:/Program Files/bin/boundscheck.exe"
+      - "C:/Program Files/bin/boundscheck"
+      - "C:/Program Files/sbin/boundscheck.com"
+      - "C:/Program Files/sbin/boundscheck.exe"
+      - "C:/Program Files/sbin/boundscheck"
+      - "C:/Program Files/boundscheck.com"
+      - "C:/Program Files/boundscheck.exe"
+      - "C:/Program Files/boundscheck"
+      - "C:/Program Files (x86)/bin/boundscheck.com"
+      - "C:/Program Files (x86)/bin/boundscheck.exe"
+      - "C:/Program Files (x86)/bin/boundscheck"
+      - "C:/Program Files (x86)/sbin/boundscheck.com"
+      - "C:/Program Files (x86)/sbin/boundscheck.exe"
+      - "C:/Program Files (x86)/sbin/boundscheck"
+      - "C:/Program Files (x86)/boundscheck.com"
+      - "C:/Program Files (x86)/boundscheck.exe"
+      - "C:/Program Files (x86)/boundscheck"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/boundscheck.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/boundscheck.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/boundscheck"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/boundscheck.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/boundscheck.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/boundscheck"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/boundscheck.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/boundscheck.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/boundscheck"
+      - "C:/Program Files (x86)/tictactoe/bin/boundscheck.com"
+      - "C:/Program Files (x86)/tictactoe/bin/boundscheck.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/boundscheck"
+      - "C:/Program Files (x86)/tictactoe/sbin/boundscheck.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/boundscheck.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/boundscheck"
+      - "C:/Program Files (x86)/tictactoe/boundscheck.com"
+      - "C:/Program Files (x86)/tictactoe/boundscheck.exe"
+      - "C:/Program Files (x86)/tictactoe/boundscheck"
+      - "/REGISTRY-NOTFOUND/boundscheck.com"
+      - "/REGISTRY-NOTFOUND/boundscheck.exe"
+      - "/REGISTRY-NOTFOUND/boundscheck"
+      - "C:/Windows/SysWOW64/drmemory.com"
+      - "C:/Windows/SysWOW64/drmemory.exe"
+      - "C:/Windows/SysWOW64/drmemory"
+      - "C:/Windows/drmemory.com"
+      - "C:/Windows/drmemory.exe"
+      - "C:/Windows/drmemory"
+      - "C:/Windows/SysWOW64/wbem/drmemory.com"
+      - "C:/Windows/SysWOW64/wbem/drmemory.exe"
+      - "C:/Windows/SysWOW64/wbem/drmemory"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/drmemory.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/drmemory.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/drmemory"
+      - "C:/Program Files/dotnet/drmemory.com"
+      - "C:/Program Files/dotnet/drmemory.exe"
+      - "C:/Program Files/dotnet/drmemory"
+      - "C:/Program Files (x86)/gnupg/bin/drmemory.com"
+      - "C:/Program Files (x86)/gnupg/bin/drmemory.exe"
+      - "C:/Program Files (x86)/gnupg/bin/drmemory"
+      - "C:/Program Files/Git/cmd/drmemory.com"
+      - "C:/Program Files/Git/cmd/drmemory.exe"
+      - "C:/Program Files/Git/cmd/drmemory"
+      - "C:/Users/Justin/AppData/Local/nvm/drmemory.com"
+      - "C:/Users/Justin/AppData/Local/nvm/drmemory.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/drmemory"
+      - "C:/nvm4w/nodejs/drmemory.com"
+      - "C:/nvm4w/nodejs/drmemory.exe"
+      - "C:/nvm4w/nodejs/drmemory"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/drmemory.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/drmemory.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/drmemory"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/drmemory.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/drmemory.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/drmemory"
+      - "C:/ytdlp/drmemory.com"
+      - "C:/ytdlp/drmemory.exe"
+      - "C:/ytdlp/drmemory"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/drmemory.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/drmemory.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/drmemory"
+      - "C:/Program Files/bin/drmemory.com"
+      - "C:/Program Files/bin/drmemory.exe"
+      - "C:/Program Files/bin/drmemory"
+      - "C:/Program Files/sbin/drmemory.com"
+      - "C:/Program Files/sbin/drmemory.exe"
+      - "C:/Program Files/sbin/drmemory"
+      - "C:/Program Files/drmemory.com"
+      - "C:/Program Files/drmemory.exe"
+      - "C:/Program Files/drmemory"
+      - "C:/Program Files (x86)/bin/drmemory.com"
+      - "C:/Program Files (x86)/bin/drmemory.exe"
+      - "C:/Program Files (x86)/bin/drmemory"
+      - "C:/Program Files (x86)/sbin/drmemory.com"
+      - "C:/Program Files (x86)/sbin/drmemory.exe"
+      - "C:/Program Files (x86)/sbin/drmemory"
+      - "C:/Program Files (x86)/drmemory.com"
+      - "C:/Program Files (x86)/drmemory.exe"
+      - "C:/Program Files (x86)/drmemory"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/drmemory.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/drmemory.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/drmemory"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/drmemory.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/drmemory.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/drmemory"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/drmemory.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/drmemory.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/drmemory"
+      - "C:/Program Files (x86)/tictactoe/bin/drmemory.com"
+      - "C:/Program Files (x86)/tictactoe/bin/drmemory.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/drmemory"
+      - "C:/Program Files (x86)/tictactoe/sbin/drmemory.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/drmemory.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/drmemory"
+      - "C:/Program Files (x86)/tictactoe/drmemory.com"
+      - "C:/Program Files (x86)/tictactoe/drmemory.exe"
+      - "C:/Program Files (x86)/tictactoe/drmemory"
+      - "/REGISTRY-NOTFOUND/drmemory.com"
+      - "/REGISTRY-NOTFOUND/drmemory.exe"
+      - "/REGISTRY-NOTFOUND/drmemory"
+      - "C:/Windows/SysWOW64/cuda-memcheck.com"
+      - "C:/Windows/SysWOW64/cuda-memcheck.exe"
+      - "C:/Windows/SysWOW64/cuda-memcheck"
+      - "C:/Windows/cuda-memcheck.com"
+      - "C:/Windows/cuda-memcheck.exe"
+      - "C:/Windows/cuda-memcheck"
+      - "C:/Windows/SysWOW64/wbem/cuda-memcheck.com"
+      - "C:/Windows/SysWOW64/wbem/cuda-memcheck.exe"
+      - "C:/Windows/SysWOW64/wbem/cuda-memcheck"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/cuda-memcheck.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/cuda-memcheck.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/cuda-memcheck"
+      - "C:/Program Files/dotnet/cuda-memcheck.com"
+      - "C:/Program Files/dotnet/cuda-memcheck.exe"
+      - "C:/Program Files/dotnet/cuda-memcheck"
+      - "C:/Program Files (x86)/gnupg/bin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/gnupg/bin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/gnupg/bin/cuda-memcheck"
+      - "C:/Program Files/Git/cmd/cuda-memcheck.com"
+      - "C:/Program Files/Git/cmd/cuda-memcheck.exe"
+      - "C:/Program Files/Git/cmd/cuda-memcheck"
+      - "C:/Users/Justin/AppData/Local/nvm/cuda-memcheck.com"
+      - "C:/Users/Justin/AppData/Local/nvm/cuda-memcheck.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/cuda-memcheck"
+      - "C:/nvm4w/nodejs/cuda-memcheck.com"
+      - "C:/nvm4w/nodejs/cuda-memcheck.exe"
+      - "C:/nvm4w/nodejs/cuda-memcheck"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/cuda-memcheck.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/cuda-memcheck.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/cuda-memcheck"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/cuda-memcheck.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/cuda-memcheck.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/cuda-memcheck"
+      - "C:/ytdlp/cuda-memcheck.com"
+      - "C:/ytdlp/cuda-memcheck.exe"
+      - "C:/ytdlp/cuda-memcheck"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/cuda-memcheck.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/cuda-memcheck.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/cuda-memcheck"
+      - "C:/Program Files/bin/cuda-memcheck.com"
+      - "C:/Program Files/bin/cuda-memcheck.exe"
+      - "C:/Program Files/bin/cuda-memcheck"
+      - "C:/Program Files/sbin/cuda-memcheck.com"
+      - "C:/Program Files/sbin/cuda-memcheck.exe"
+      - "C:/Program Files/sbin/cuda-memcheck"
+      - "C:/Program Files/cuda-memcheck.com"
+      - "C:/Program Files/cuda-memcheck.exe"
+      - "C:/Program Files/cuda-memcheck"
+      - "C:/Program Files (x86)/bin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/bin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/bin/cuda-memcheck"
+      - "C:/Program Files (x86)/sbin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/sbin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/sbin/cuda-memcheck"
+      - "C:/Program Files (x86)/cuda-memcheck.com"
+      - "C:/Program Files (x86)/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/cuda-memcheck"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cuda-memcheck"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/cuda-memcheck"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/cuda-memcheck.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/cuda-memcheck"
+      - "C:/Program Files (x86)/tictactoe/bin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/tictactoe/bin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/cuda-memcheck"
+      - "C:/Program Files (x86)/tictactoe/sbin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/cuda-memcheck"
+      - "C:/Program Files (x86)/tictactoe/cuda-memcheck.com"
+      - "C:/Program Files (x86)/tictactoe/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/tictactoe/cuda-memcheck"
+      - "/REGISTRY-NOTFOUND/cuda-memcheck.com"
+      - "/REGISTRY-NOTFOUND/cuda-memcheck.exe"
+      - "/REGISTRY-NOTFOUND/cuda-memcheck"
+      - "C:/Windows/SysWOW64/compute-sanitizer.com"
+      - "C:/Windows/SysWOW64/compute-sanitizer.exe"
+      - "C:/Windows/SysWOW64/compute-sanitizer"
+      - "C:/Windows/compute-sanitizer.com"
+      - "C:/Windows/compute-sanitizer.exe"
+      - "C:/Windows/compute-sanitizer"
+      - "C:/Windows/SysWOW64/wbem/compute-sanitizer.com"
+      - "C:/Windows/SysWOW64/wbem/compute-sanitizer.exe"
+      - "C:/Windows/SysWOW64/wbem/compute-sanitizer"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/compute-sanitizer.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/compute-sanitizer.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/compute-sanitizer"
+      - "C:/Program Files/dotnet/compute-sanitizer.com"
+      - "C:/Program Files/dotnet/compute-sanitizer.exe"
+      - "C:/Program Files/dotnet/compute-sanitizer"
+      - "C:/Program Files (x86)/gnupg/bin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/gnupg/bin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/gnupg/bin/compute-sanitizer"
+      - "C:/Program Files/Git/cmd/compute-sanitizer.com"
+      - "C:/Program Files/Git/cmd/compute-sanitizer.exe"
+      - "C:/Program Files/Git/cmd/compute-sanitizer"
+      - "C:/Users/Justin/AppData/Local/nvm/compute-sanitizer.com"
+      - "C:/Users/Justin/AppData/Local/nvm/compute-sanitizer.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/compute-sanitizer"
+      - "C:/nvm4w/nodejs/compute-sanitizer.com"
+      - "C:/nvm4w/nodejs/compute-sanitizer.exe"
+      - "C:/nvm4w/nodejs/compute-sanitizer"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/compute-sanitizer.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/compute-sanitizer.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/compute-sanitizer"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/compute-sanitizer.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/compute-sanitizer.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/compute-sanitizer"
+      - "C:/ytdlp/compute-sanitizer.com"
+      - "C:/ytdlp/compute-sanitizer.exe"
+      - "C:/ytdlp/compute-sanitizer"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/compute-sanitizer.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/compute-sanitizer.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/compute-sanitizer"
+      - "C:/Program Files/bin/compute-sanitizer.com"
+      - "C:/Program Files/bin/compute-sanitizer.exe"
+      - "C:/Program Files/bin/compute-sanitizer"
+      - "C:/Program Files/sbin/compute-sanitizer.com"
+      - "C:/Program Files/sbin/compute-sanitizer.exe"
+      - "C:/Program Files/sbin/compute-sanitizer"
+      - "C:/Program Files/compute-sanitizer.com"
+      - "C:/Program Files/compute-sanitizer.exe"
+      - "C:/Program Files/compute-sanitizer"
+      - "C:/Program Files (x86)/bin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/bin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/bin/compute-sanitizer"
+      - "C:/Program Files (x86)/sbin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/sbin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/sbin/compute-sanitizer"
+      - "C:/Program Files (x86)/compute-sanitizer.com"
+      - "C:/Program Files (x86)/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/compute-sanitizer"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/compute-sanitizer"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/compute-sanitizer"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/compute-sanitizer.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/compute-sanitizer"
+      - "C:/Program Files (x86)/tictactoe/bin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/tictactoe/bin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/compute-sanitizer"
+      - "C:/Program Files (x86)/tictactoe/sbin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/compute-sanitizer"
+      - "C:/Program Files (x86)/tictactoe/compute-sanitizer.com"
+      - "C:/Program Files (x86)/tictactoe/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/tictactoe/compute-sanitizer"
+      - "/REGISTRY-NOTFOUND/compute-sanitizer.com"
+      - "/REGISTRY-NOTFOUND/compute-sanitizer.exe"
+      - "/REGISTRY-NOTFOUND/compute-sanitizer"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tictactoe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/tictactoe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CTest.cmake:196 (find_program)"
+      - "CMakeLists.txt:33 (include)"
+    mode: "program"
+    variable: "COVERAGE_COMMAND"
+    description: "Path to the coverage program that CTest uses for performing coverage inspection"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcov"
+    candidate_directories:
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/gnupg/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Justin/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ytdlp/"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/tictactoe/bin/"
+      - "C:/Program Files (x86)/tictactoe/sbin/"
+      - "C:/Program Files (x86)/tictactoe/"
+    searched_directories:
+      - "C:/Windows/SysWOW64/gcov.com"
+      - "C:/Windows/SysWOW64/gcov.exe"
+      - "C:/Windows/SysWOW64/gcov"
+      - "C:/Windows/gcov.com"
+      - "C:/Windows/gcov.exe"
+      - "C:/Windows/gcov"
+      - "C:/Windows/SysWOW64/wbem/gcov.com"
+      - "C:/Windows/SysWOW64/wbem/gcov.exe"
+      - "C:/Windows/SysWOW64/wbem/gcov"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcov.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcov.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcov"
+      - "C:/Program Files/dotnet/gcov.com"
+      - "C:/Program Files/dotnet/gcov.exe"
+      - "C:/Program Files/dotnet/gcov"
+      - "C:/Program Files (x86)/gnupg/bin/gcov.com"
+      - "C:/Program Files (x86)/gnupg/bin/gcov.exe"
+      - "C:/Program Files (x86)/gnupg/bin/gcov"
+      - "C:/Program Files/Git/cmd/gcov.com"
+      - "C:/Program Files/Git/cmd/gcov.exe"
+      - "C:/Program Files/Git/cmd/gcov"
+      - "C:/Users/Justin/AppData/Local/nvm/gcov.com"
+      - "C:/Users/Justin/AppData/Local/nvm/gcov.exe"
+      - "C:/Users/Justin/AppData/Local/nvm/gcov"
+      - "C:/nvm4w/nodejs/gcov.com"
+      - "C:/nvm4w/nodejs/gcov.exe"
+      - "C:/nvm4w/nodejs/gcov"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/gcov.com"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/gcov.exe"
+      - "C:/Users/Justin/AppData/Local/Microsoft/WindowsApps/gcov"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/gcov.com"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/gcov.exe"
+      - "C:/Users/Justin/AppData/Local/GitHubDesktop/bin/gcov"
+      - "C:/ytdlp/gcov.com"
+      - "C:/ytdlp/gcov.exe"
+      - "C:/ytdlp/gcov"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/gcov.com"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/gcov.exe"
+      - "C:/Users/Justin/AppData/Local/Programs/Microsoft VS Code/bin/gcov"
+      - "C:/Program Files/bin/gcov.com"
+      - "C:/Program Files/bin/gcov.exe"
+      - "C:/Program Files/bin/gcov"
+      - "C:/Program Files/sbin/gcov.com"
+      - "C:/Program Files/sbin/gcov.exe"
+      - "C:/Program Files/sbin/gcov"
+      - "C:/Program Files/gcov.com"
+      - "C:/Program Files/gcov.exe"
+      - "C:/Program Files/gcov"
+      - "C:/Program Files (x86)/bin/gcov.com"
+      - "C:/Program Files (x86)/bin/gcov.exe"
+      - "C:/Program Files (x86)/bin/gcov"
+      - "C:/Program Files (x86)/sbin/gcov.com"
+      - "C:/Program Files (x86)/sbin/gcov.exe"
+      - "C:/Program Files (x86)/sbin/gcov"
+      - "C:/Program Files (x86)/gcov.com"
+      - "C:/Program Files (x86)/gcov.exe"
+      - "C:/Program Files (x86)/gcov"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/gcov.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/gcov.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/gcov"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/gcov.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/gcov.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/gcov"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/gcov.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/gcov.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/gcov"
+      - "C:/Program Files (x86)/tictactoe/bin/gcov.com"
+      - "C:/Program Files (x86)/tictactoe/bin/gcov.exe"
+      - "C:/Program Files (x86)/tictactoe/bin/gcov"
+      - "C:/Program Files (x86)/tictactoe/sbin/gcov.com"
+      - "C:/Program Files (x86)/tictactoe/sbin/gcov.exe"
+      - "C:/Program Files (x86)/tictactoe/sbin/gcov"
+      - "C:/Program Files (x86)/tictactoe/gcov.com"
+      - "C:/Program Files (x86)/tictactoe/gcov.exe"
+      - "C:/Program Files (x86)/tictactoe/gcov"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\gnupg\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Justin\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ytdlp"
+        - "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Justin\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tictactoe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/tictactoe"
+...

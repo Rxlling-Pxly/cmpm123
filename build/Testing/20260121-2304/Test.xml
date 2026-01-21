@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20260121-2304-Experimental"
+	Name="JUSTINS-DESKTOP"
+	Generator="ctest-4.1.1-msvc1"
+	CompilerName="C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.50.35721.0"
+	OSName="Windows"
+	Hostname="JUSTINS-DESKTOP"
+	OSRelease=" Personal"
+	OSVersion=" (Build 26100)"
+	OSPlatform="x86"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ModelName="AMD Ryzen 5 5600X 6-Core Processor"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="34740"
+	TotalPhysicalMemory="32692"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3701"
+	>
+	<Testing>
+		<StartDateTime>Jan 21 15:04 Pacific Standard Time</StartDateTime>
+		<StartTestTime>1769036681</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 21 15:04 Pacific Standard Time</EndDateTime>
+		<EndTestTime>1769036681</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

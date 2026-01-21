@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Justin\Visual Studio Code Projects\CMPM 123\cmpm123\build\CMakeFiles\aa36942ab047decac18b050ae33d44c1\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Justin\Visual Studio Code Projects\CMPM 123\cmpm123\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Justin\Visual Studio Code Projects\CMPM 123\cmpm123\build\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A75D9814-6E0C-37A8-B8DE-434829C30726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
