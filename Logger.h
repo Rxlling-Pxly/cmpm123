@@ -130,15 +130,6 @@ class Logger {
                 return;
             }
 
-            if (ImGui::Button("Log To File (Custom)")) {
-                LogToFile(); // overwrites
-            }
-            ImGui::SameLine();
-
-            if (ImGui::Button("Log To File (ImGui)")) {
-                ImGui::LogToFile(); // appends
-            }
-
             if (ImGui::Button("Test Info")) {
                 _logMessages.push_back({ GetTime(), LogMessageType::Info, "This is a test info message" });
             }
@@ -158,8 +149,17 @@ class Logger {
                 _logMessages.clear();
             }
 
-            ImGui::Combo("Level Filter", &logMessageMinLevelFilter, "Info\0Warning\0Error\0\0");
+            if (ImGui::Button("Log To File (Custom)")) {
+                LogToFile(); // overwrites
+            }
+            ImGui::SameLine();
+
+            if (ImGui::Button("Log To File (ImGui)")) {
+                ImGui::LogToFile(); // appends
+            }
             ImGui::Separator();
+
+            ImGui::Combo("Level Filter", &logMessageMinLevelFilter, "Info\0Warning\0Error\0\0");
 
             if (ImGui::BeginChild("Scrolling Region", ImVec2(0, 0), ImGuiChildFlags_NavFlattened, ImGuiWindowFlags_HorizontalScrollbar)) {
                 for (const auto& logMessage : _logMessages) {

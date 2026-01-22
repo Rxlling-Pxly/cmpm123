@@ -2,6 +2,10 @@
 #include "Logger.h"
 #include "imgui/imgui.h"
 
+/*
+    Created the Logger class
+    No other classes have been changed
+*/
 namespace ClassGame {
     //
     // our global variables
@@ -27,7 +31,6 @@ namespace ClassGame {
     {
         ImGui::DockSpaceOverViewport();
         ImGui::ShowDemoWindow();
-
         Logger::GetInstance().Render();
     }
 
