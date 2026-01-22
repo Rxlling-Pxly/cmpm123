@@ -8,3 +8,5 @@ Coming into this assignment as rusty and unknowledgeable, I was able to complete
 
 I did not ask the professor any questions regarding this logger assignment both in person and in Discord.
 However, I did read through the "class-questions" channel in Discord and found it very helpful.
+
+I worked on Windows, so please test this on there as well.
