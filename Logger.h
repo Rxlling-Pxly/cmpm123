@@ -34,9 +34,9 @@ class Logger {
         bool _isWindowOpen = true;
 
         enum class LogMessageType { Info, Warning, Error };
-        inline static const ImVec4 WHITE = ImVec4(1, 1, 1, 1); // need to use `inline` to declare value within class definition
-        inline static const ImVec4 YELLOW = ImVec4(1, 1, 0, 1);
-        inline static const ImVec4 RED = ImVec4(1, 0, 0, 1);
+        const ImVec4 WHITE = ImVec4(1, 1, 1, 1);
+        const ImVec4 YELLOW = ImVec4(1, 1, 0, 1);
+        const ImVec4 RED = ImVec4(1, 0, 0, 1);
         struct LogMessage {
             std::string Time;
             LogMessageType Type;
@@ -44,6 +44,7 @@ class Logger {
         };
         std::vector<LogMessage> _logMessages;
 
+        int logMessageMinLevelFilter = 0;
 
         std::string GetTime() {
             // written by ChatGPT because I don't know what a chrono is
@@ -61,6 +62,18 @@ class Logger {
                 << std::put_time(&localTime, "%H:%M:%S") // HH:MM:SS
                 << '.' << std::setfill('0') << std::setw(3) << milliseconds.count(); // .MMM
             return stringStream.str();
+        }
+
+        int LogMessageTypeToInt(LogMessageType type) {
+            switch (type) {
+                case LogMessageType::Info:
+                    return 0;
+                case LogMessageType::Warning:
+                    return 1;
+                case LogMessageType::Error:
+                    return 2;
+            }
+            throw "Switch statement exited in LogMessageTypeToInt()";
         }
 
         ImVec4 LogMessageTypeToColor(LogMessageType type) {
@@ -122,10 +135,16 @@ class Logger {
             if (ImGui::Button("Clear")) {
                 _logMessages.clear();
             }
+
+            ImGui::Combo("Level Filter", &logMessageMinLevelFilter, "Info\0Warning\0Error\0\0");
             ImGui::Separator();
 
             if (ImGui::BeginChild("Scrolling Region", ImVec2(0, 0), ImGuiChildFlags_NavFlattened, ImGuiWindowFlags_HorizontalScrollbar)) {
                 for (const auto& logMessage : _logMessages) {
+                    if (LogMessageTypeToInt(logMessage.Type) < logMessageMinLevelFilter) {
+                        continue;
+                    }
+
                     ImGui::PushStyleColor(ImGuiCol_Text, LogMessageTypeToColor(logMessage.Type));
 
                     std::string logMessageType_Uppercase = LogMessageTypeToString(logMessage.Type);
