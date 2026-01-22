@@ -1,7 +1,9 @@
 #include <algorithm>
 #include <chrono> // modern, preferred over ctime (C-style)
 #include <ctime>
+#include <fstream>
 #include <iomanip>
+#include <iostream>
 #include <sstream>
 #include <string>
 #include <vector>
@@ -64,6 +66,17 @@ class Logger {
             return stringStream.str();
         }
 
+        void LogToFile() {
+            std::ofstream LogFile("custom_log.txt");
+            for (const auto& logMessage : _logMessages) {
+                std::string logMessageType_Uppercase = LogMessageTypeToString(logMessage.Type);
+                std::transform(logMessageType_Uppercase.begin(), logMessageType_Uppercase.end(), logMessageType_Uppercase.begin(), ::toupper);
+                std::string completeMessage = std::format("[{}] [{}] {}", logMessage.Time, logMessageType_Uppercase, logMessage.Message);
+                LogFile << completeMessage << std::endl;
+            }
+            LogFile.close();
+        }
+
         int LogMessageTypeToInt(LogMessageType type) {
             switch (type) {
                 case LogMessageType::Info:
@@ -115,6 +128,15 @@ class Logger {
             if (!ImGui::Begin("Game Log", &_isWindowOpen)) { // pass a bool* to Begin() to enable 'X' button
                 ImGui::End();
                 return;
+            }
+
+            if (ImGui::Button("Log To File (Custom)")) {
+                LogToFile(); // overwrites
+            }
+            ImGui::SameLine();
+
+            if (ImGui::Button("Log To File (ImGui)")) {
+                ImGui::LogToFile(); // appends
             }
 
             if (ImGui::Button("Test Info")) {

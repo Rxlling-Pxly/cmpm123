@@ -12,4 +12,5 @@ For the submission, make a branch of this repo and submit a new GitHub URL
 
 Copy code from imgui library
 Geeks for geeks for how to do things in C++
+cppreference for what a thing is
 ChatGPT for bugfixing, refactoring, and learning about C++ conventions and features (e.g. "What does it mean when a function returns something with an & after it in C++?")
